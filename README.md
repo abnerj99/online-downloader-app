@@ -15,19 +15,19 @@ Online-Downloader is a yt-dlp tool designed to simplify the process of downloadi
     ```
 2. Navigate to the project directory:
     ```bash
-    cd online-downloader
+    cd online-downloader-app
     ```
 3. Install dependencies:
     ```bash
-    npm install
+    pip install -r requirements.txt
     ```
 
 ## Usage
 1. Start the application:
     ```bash
-    npm start
+    python3 main.py
     ```
-2. Follow the on-screen instructions to download files.
+2. Follow the on-screen instructions to start downloading files.
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
