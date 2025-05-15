@@ -1,0 +1,5 @@
+#ignore virtual enviroment
+downloaderapp/
+#Ignore pycache
+__pycache__/
+*.pyc
