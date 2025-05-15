@@ -1,7 +1,7 @@
 # Online Video Downloader
 
 ## Description
-Online-Downloader is a yt-dlp tool designed to simplify the process of downloading files from the internet. Seamless downloading anytime via the command line.
+Online-Downloader is a yt-dlp tool designed to simplify the process of downloading files from the internet. Seamless downloading anytime via interactive prompts in python.
 ## Features
 - Support for multiple file formats.
 - Easy-to-use interface.
@@ -11,7 +11,7 @@ Online-Downloader is a yt-dlp tool designed to simplify the process of downloadi
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/abnerj99/online-downloader.git
+    git clone https://github.com/abnerj99/online-downloader-app
     ```
 2. Navigate to the project directory:
     ```bash
