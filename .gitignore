@@ -3,3 +3,5 @@ downloaderapp/
 #Ignore pycache
 __pycache__/
 *.pyc
+
+._ds_store/
