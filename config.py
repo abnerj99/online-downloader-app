@@ -9,5 +9,6 @@ home = Path.home()
 downloads = home / "Downloads"
 ydl_opts = {
         'quiet': False, #Display downloading info
+        'no_warnings': True,
         'noplaylist': True, #No playlist, single video
     }

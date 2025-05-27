@@ -11,10 +11,12 @@ def final_destination():
 
     if destination_choice == "y":
         print(f"Downloading to {downloads}...")
+        print("=" * 50)
         user_destination = downloads
     elif destination_choice == "n":
         user_destination = input("Where would you like to save your file?: ")
         print(f'Downloading to {user_destination}...')
+        print("=" * 50)
 
     if not os.path.exists(user_destination):
         print("Directory does not exist. Please enter a valid path.")
