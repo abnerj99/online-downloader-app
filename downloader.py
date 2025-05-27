@@ -14,8 +14,7 @@ def download_video(url,file_type):
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         video_info = ydl.extract_info(url, download=False)
         print(f"Title: {video_info['title']}")
-        print(f"Duration: {video_info['duration']} seconds")
-        print(f'View Count: {video_info['view_count']}')
+        
         try:
             # Download the video
             print(f"One Moment...")
@@ -26,6 +25,13 @@ def download_video(url,file_type):
             print(f"Extractor error: {e}")
         except Exception as e:
             print(f"An unexpected error occurred: {e}")
+            
+        # Display video information
+        minutes, seconds = divmod(video_info['duration'], 60)
+        print("----------------------")
+        print(f"Title: {video_info['title']}")
+        print(f"Duration: {minutes} minutes and {seconds} seconds")
+        print(f'View Count: {video_info['view_count']}')
         ## Get File Size
 
         file_path = os.path.join(ydl.prepare_filename(video_info))
