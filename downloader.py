@@ -28,8 +28,9 @@ def download_video(url,file_type):
             print(f"An unexpected error occurred: {e}")
         ## Get File Size
 
-        final_file = os.path.join(ydl.prepare_filename(video_info))
-        final_file = final_file.replace('.webm', f'.{file_type}')
+        file_path = os.path.join(ydl.prepare_filename(video_info))
+        #### Always ensure file has correct extension
+        final_file = file_path.rsplit('.', 1)[0] + f'.{file_type}'
 
         if os.path.exists(final_file):
             file_size = os.path.getsize(final_file)

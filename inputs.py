@@ -6,6 +6,7 @@ def get_user_input():
     Ask for download location.
     '''
     url = ""
+    file_type = ""
     choice = input("Do you want to download a YouTube video or an audio? (v/a): ").strip().lower()
 
     if choice == "v":
