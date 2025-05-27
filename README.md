@@ -1,19 +1,18 @@
-# Online Video Downloader
-##Playlist Mode(Experimental)
+# Online Video Downloader - Playlist Mode(Experimental)
 
 ## Description
 Online-Downloader is a yt-dlp tool designed to simplify the process of downloading files from the internet. Seamless downloading anytime via interactive prompts in python. 
 This branch also supports downloading entire playlists.
 
 ###
-Visit the yt-dlp [repo](https://github.com/yt-dlp/yt-dlp)
+Visit the yt-dlp repo [here](https://github.com/yt-dlp/yt-dlp)
 ## Features
 - Support for multiple file formats.
 - Easy-to-use interface.
 - Fast and reliable downloads.
 - Cross-platform compatibility.
-- Allows User to specify path/download location
-- Ability to download multiplie videos, via playlist option
+- Allows User to specify path/download location.
+- Ability to download multiplie videos, via playlist option.
 
 ## Installation
 1. Clone the repository:
@@ -23,6 +22,7 @@ Visit the yt-dlp [repo](https://github.com/yt-dlp/yt-dlp)
 2. Navigate to the project directory:
     ```bash
     cd online-downloader-app
+    git checkout playlist-option
     ```
 3. Install dependencies:
     ```bash
@@ -55,6 +55,3 @@ Contributions are welcome! Please follow these steps:
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-For questions or feedback, please contact.
